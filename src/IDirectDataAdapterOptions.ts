@@ -5,7 +5,7 @@ import {EnvType} from './index'
 
 export interface IDirectDataAdapterOptions extends IDataAdapterBasicOptions {
   mode: 'direct'
-  exampleCache: Cache
-  exampleDB?: Database
+  cache: Cache
+  db?: Database
   env?: EnvType
 }
